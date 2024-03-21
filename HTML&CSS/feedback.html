@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <!-- for response -->
+    <form action="./response.html">
+        <!-- for title -->
+        <h1><i><u> Feedback Form </u></i></h1>
+        <!-- for languages -->
+        <label for="language">Choose a language:</label><br>
+         <select id="language" name="languages">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Marathi">Marathi</option>
+            <option value="Sanskrit">Sanskrit</option>
+            </select><br>
+        <fieldset>
+            <legend> <u><i>Information</i></u></legend>
+            <!-- for details -->
+            
+        <label> Name:-</label><br>
+        <input type="text"/><br>
+        <label> Email:-</label><br>
+        <input type="email"/><br>
+        <label>Phone No :-</label><br>
+        <input type="number"/><br>
+        <label> Gender:-</label><br>
+        <input type="radio"name="Gender"/>
+        <label for="male">Male</label>
+        <input type="radio"name="Gender"/>
+        <label for="female">Female</label>
+        <input type="radio"name="Gender"/>
+        <label for="others">Others</label><br>
+        <label> Date :-</label><br>
+        <input type="datetime-local"/><br>
+        <label for="Country">Choose a country:</label><br>
+         <select id="Country" name="Country">
+            <option value="NONE">NONE</option>
+            <option value="INDIA">INDIA</option>
+            <option value="AMERICA">AMERICA</option>
+        </select>
+        <br> 
+         <label> Do you satisfy with our service:-</label><br>
+        <label>Yes</label>
+        <input type="checkbox"/><br>
+        <label>No</label>
+        <input type="checkbox"/><br>
+        <label> Write  your Suggestion:-</label><br>
+        <textarea type ="text area" rows="4"cols="50"></textarea><br>
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button><br>
+        <!-- for submit the response -->
+       <input type="submit"/>
+      </fieldset>
+       </form>
+     </body>
+    </html>
+
+
